@@ -22,6 +22,80 @@ This project demonstrates how to design and query a **Student Management Databas
 - **`courses`**: contains course IDs and names
 - **`mark`**: records marks per student per course with foreign keys
 
+
+## Student_Management_System
+
+#1. *Create Tables*
+
+CREATE DATABASE Student_Management_System;
+USE Student_Management_System;
+
+CREATE TABLE student
+( student_id INT PRIMARY KEY,
+Name_ VARCHAR(50),
+Age INT ,
+Gender VARCHAR (20));
+
+CREATE TABLE courses
+( Course_id INT PRIMARY KEY,
+course_name VARCHAR(50));
+
+CREATE TABLE mark
+(mark_id INT PRIMARY KEY,
+student_id INT ,
+FOREIGN KEY(student_id) REFERENCES student(student_id),
+Course_id INT,
+FOREIGN KEY(Course_id) REFERENCES courses(Course_id ),
+mark INT);
+
+
+## 2. *Insert Sample Data*
+
+INSERT INTO student
+VALUES (1, 'Alice', 20, 'Female'),
+		(2, 'Bob', 21, 'Male'),
+	    (3, 'Charlie', 22, 'Male');
+        
+INSERT INTO courses
+VALUES (101, 'Math'),
+	   (102, 'Science');
+
+INSERT INTO mark
+VALUES (1, 1, 101, 85),
+		(2, 1, 102, 90),
+		(3, 2, 101, 75),
+		(4, 3, 102, 60);
+        
+
+## 3. *Write Queries**Get all students:*        
+
+SELECT * FROM STUDENT;
+
+
+##List students and their marks:*
+
+SELECT s.name_, c.course_name, m.mark
+FROM Mark m
+JOIN Student s ON m.student_id = s.student_id
+JOIN Courses c ON m.course_id = c.course_id;
+
+
+## Find average marks per student:*
+
+SELECT s.name_, AVG(m.mark) AS average_marks
+FROM Mark m
+JOIN Student s ON m.student_id = s.student_id
+GROUP BY s.name_;
+
+
+##Find students with marks > 80:*
+
+SELECT s.name_,m.mark
+FROM mark m
+JOIN student s ON m.student_id = s.student_id
+WHERE mark > 80;
+
+
 ---
 
 ##  Skills Demonstrated
