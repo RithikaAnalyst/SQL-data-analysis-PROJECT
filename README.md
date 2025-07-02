@@ -22,27 +22,13 @@ This project demonstrates how to design and query a **Student Management Databas
 - **`courses`**: contains course IDs and names
 - **`mark`**: records marks per student per course with foreign keys
 
-```sql
-CREATE TABLE student (
-  student_id INT PRIMARY KEY,
-  Name_ VARCHAR(50),
-  Age INT,
-  Gender VARCHAR(20)
-);
+---
 
-CREATE TABLE courses (
-  Course_id INT PRIMARY KEY,
-  course_name VARCHAR(50)
-);
+##  Skills Demonstrated
 
-CREATE TABLE mark (
-  mark_id INT PRIMARY KEY,
-  student_id INT,
-  Course_id INT,
-  mark INT,
-  FOREIGN KEY(student_id) REFERENCES student(student_id),
-  FOREIGN KEY(Course_id) REFERENCES courses(Course_id)
-);
-
+- Relational database design
+- Data normalization
+- Use of JOINs, GROUP BY, aggregate functions, and WHERE clauses
+- Data filtering and basic analysis
 
 
