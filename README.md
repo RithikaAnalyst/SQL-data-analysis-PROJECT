@@ -28,6 +28,16 @@ This project demonstrates how to design and query a **Student Management Databas
 - Data normalization
 - Use of JOINs, GROUP BY, aggregate functions, and WHERE clauses
 - Data filtering and basic analysis
+  
+# Q&A
+
+-create a table
+-Insert Sample Data
+-Write Queries**Get all students
+-List students and their marks
+-Find average marks per student
+-Find students with marks > 80
+
 
 
 ## Code
