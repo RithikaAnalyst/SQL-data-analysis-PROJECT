@@ -31,8 +31,11 @@ This project demonstrates how to design and query a **Student Management Databas
 
 
 ## Code
+
  
 ``` sql
+
+##create a table
 
 CREATE DATABASE Student_Management_System;
 USE Student_Management_System;
