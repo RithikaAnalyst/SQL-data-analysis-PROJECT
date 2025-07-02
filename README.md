@@ -31,12 +31,12 @@ This project demonstrates how to design and query a **Student Management Databas
   
 # Q&A
 
--create a table
--Insert Sample Data
--Write Queries**Get all students
--List students and their marks
--Find average marks per student
--Find students with marks > 80
+- create a table
+- Insert Sample Data
+- Write Queries**Get all students
+- List students and their marks
+- Find average marks per student
+- Find students with marks > 80
 
 
 
