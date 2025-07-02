@@ -23,7 +23,7 @@ This project demonstrates how to design and query a **Student Management Databas
 - **`mark`**: records marks per student per course with foreign keys
 
 
-## Student_Management_System
+
  
 ''' sql
 
