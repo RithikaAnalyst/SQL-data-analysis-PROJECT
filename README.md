@@ -24,7 +24,7 @@ This project demonstrates how to design and query a **Student Management Databas
 
 
 ## Student_Management_System
-
+''' SQL
 #1. *Create Tables*
 
 CREATE DATABASE Student_Management_System;
