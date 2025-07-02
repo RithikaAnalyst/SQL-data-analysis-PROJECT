@@ -1,4 +1,4 @@
-# 🎓 Student Management System – SQL Project
+# Student Management System – SQL Project
 
 This project demonstrates how to design and query a **Student Management Database** using **MySQL**. It simulates a simple academic environment where students are enrolled in courses and receive marks, and various SQL queries are used to extract useful insights.
 
@@ -24,8 +24,8 @@ This project demonstrates how to design and query a **Student Management Databas
 
 
 ## Student_Management_System
-''' SQL
-#1. *Create Tables*
+ 
+''' sql
 
 CREATE DATABASE Student_Management_System;
 USE Student_Management_System;
