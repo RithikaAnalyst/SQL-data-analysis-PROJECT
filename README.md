@@ -22,10 +22,17 @@ This project demonstrates how to design and query a **Student Management Databas
 - **`courses`**: contains course IDs and names
 - **`mark`**: records marks per student per course with foreign keys
 
+##  Skills Demonstrated
+
+- Relational database design
+- Data normalization
+- Use of JOINs, GROUP BY, aggregate functions, and WHERE clauses
+- Data filtering and basic analysis
 
 
+## Code
  
-''' sql
+``` sql
 
 CREATE DATABASE Student_Management_System;
 USE Student_Management_System;
@@ -98,11 +105,6 @@ WHERE mark > 80;
 
 ---
 
-##  Skills Demonstrated
 
-- Relational database design
-- Data normalization
-- Use of JOINs, GROUP BY, aggregate functions, and WHERE clauses
-- Data filtering and basic analysis
 
 
