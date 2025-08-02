@@ -114,9 +114,13 @@ SELECT s.name_,m.mark
 FROM mark m
 JOIN student s ON m.student_id = s.student_id
 WHERE mark > 80;
+```
+## About Me
+Rithika R
+📌 Data Analyst | SQL | Python | Tableau | Power BI | Excel
+🔗 ![LinkedIn](https://www.linkedin.com/in/rithika-ramalingam-r-02714b244/) • ![GitHub](https://github.com/settings/profile)
 
 
----
 
 
 
